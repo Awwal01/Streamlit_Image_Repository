@@ -17,7 +17,6 @@ def create_usertable():
                 password TEXT NOT NULL)''')
 
 def add_userdata(username, password:str):
-    # how about I replace password var with hashed_password
     if (password == '') or (username == ''):
         return st.error('please add a valid password and username')
     password = make_hashes(password)
@@ -50,9 +49,6 @@ def upload_image():
     return uploaded_images
         
 def save_images(uploaded_images, choice, username):
-    # curdir = Path(__file__).parent.resolve()
-    # if choice == 'private':
-    #     save_path = Path(curdir, f'private/{username}')
     current_folder = os.path.dirname(__file__)
     if choice == 'private':
         save_path = Path(current_folder, f'private/{username}')
