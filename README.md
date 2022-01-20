@@ -38,10 +38,11 @@ To add image select Add image under task
 
 Project Current Architecture
 ![current_architecture](https://user-images.githubusercontent.com/53828785/150245339-ab8f6d6a-99cc-4243-bb0c-38a03b7f66f5.png)
+
 Future Architecture
 ![future_architecture](https://user-images.githubusercontent.com/53828785/150245416-7abe8684-8ec6-45a1-a843-d53f4c6e5552.png)
 
-Features to be added in future
-Feature to delete image(s)
-Feature to search image(s)
-Feature to edit image(s)
+Features to be added in future  
+Feature to delete image(s)  
+Feature to search image(s)  
+Feature to edit image(s)  
